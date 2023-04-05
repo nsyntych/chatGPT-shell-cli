@@ -206,10 +206,10 @@ done
 
 # set defaults
 TEMPERATURE=${TEMPERATURE:-0.7}
-MAX_TOKENS=${MAX_TOKENS:-1024}
-MODEL=${MODEL:-gpt-3.5-turbo}
+MAX_TOKENS=${MAX_TOKENS:-2000}
+MODEL=${MODEL:-gpt-4}
 SIZE=${SIZE:-512x512}
-CONTEXT=${CONTEXT:-false}
+CONTEXT=${CONTEXT:-true}
 
 # create history file
 if [ ! -f ~/.chatgpt_history ]; then
